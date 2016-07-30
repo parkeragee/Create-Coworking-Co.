@@ -1,0 +1,41 @@
+.hero {
+	background: url(bg.jpg) no-repeat center;
+	margin-top: -86px;
+	background-size: cover;
+	padding: 245px 0 160px;
+	color: #FFF;
+
+	.content-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content {
+		padding: 0 15px;
+		text-align: center;
+
+		h1 {
+			font-size: 42px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		p {
+			font-size: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		.btn {
+			margin-top: 30px;
+			display: inline-block;
+			background: $green;
+			padding: 6px 42px;
+			color: #FFF;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
+}

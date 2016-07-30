@@ -1,0 +1,65 @@
+.pricing {
+  @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700); }
+  .pricing * {
+    margin: 0px;
+    padding: 0px;
+    display: border-box; }
+  .pricing body {
+    height: 100vh;
+    font-family: 'Droid Sans';
+    text-align: center;
+    background-color: #5d4660;
+    /*@include filter-gradient($bc-purple, $bc-beige, vertical);*/
+    /*$experimental-support-for-svg:true;*/
+    /*@include background-image(linear-gradient(top, $bc-purple 0%, $bc-beige 100%));*/
+    background-repeat: no-repeat; }
+  .pricing ul {
+    display: flex; }
+  .pricing ul li {
+    flex: 1;
+    border-left: 1px solid #dddcd8; }
+  .pricing .wrap {
+    max-width: 800px;
+    margin: 50px auto 0 auto;
+    color: #989A8F; }
+  .pricing .table {
+    background-color: white;
+    height: 325px; }
+  .pricing .top {
+    background-color: #EAE9E4;
+    height: 75px; }
+    .pricing .top h1 {
+      padding-top: 20px; }
+  .pricing .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    color: white;
+    background: #989A8F; }
+  .pricing .bottom {
+    margin-top: 50px; }
+    .pricing .bottom p {
+      font-size: 13px;
+      font-family: 'Droid Serif';
+      padding: 5px; }
+      .pricing .bottom p span {
+        font-weight: bold; }
+  .pricing .sign {
+    margin-top: 50px; }
+    .pricing .sign .button {
+      border: 1px solid #989A8F;
+      padding: 10px 40px;
+      border-radius: 6px;
+      color: #989A8F;
+      font-size: 14px;
+      text-decoration: none;
+      font-size: 17px; }
+  .pricing .selected {
+    color: white !important;
+    background-color: #5d4660 !important; }
+  .pricing .circle-selected {
+    background-color: #BC9B94; }

@@ -1,0 +1,90 @@
+.pricing {
+	padding: 80px 0;
+
+	* {
+	  margin:0px;
+	  padding:0px;
+	  display:border-box;
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+
+	ul {
+	  display:flex;
+	}
+
+	ul li {
+	  flex:1;
+	  list-style: none;
+	  border-left:1px solid $border-color;
+	  text-align: center;
+
+	  &.last {
+	  	border-right:1px solid $border-color;
+	  }
+	}
+
+	.wrap {
+	  color:$gray;
+	}
+
+	.table {
+	  background-color: white;
+	}
+
+	.top {
+	  background-color:#EAE9E4;
+	  height:100px;
+	  h1 {
+	    padding-top:20px;
+	  }
+	}
+
+	.circle {
+	  width:60px;
+	  height:60px;
+	  border-radius:60px;
+	  font-size:20px;
+	  line-height:60px;
+	  text-align:center;
+	  margin:10px auto 0 auto;
+	  color:white;
+	  background:$gray;
+	}
+
+	.bottom {
+	  margin-top:50px;
+	  p {
+	    font-size:13px;
+	    font-family:'Droid Serif';
+	    padding:5px;
+	    span {
+	      font-weight:bold;
+	    }
+	  }
+	}
+
+	.sign {
+	  margin-top:50px;
+	  .button {
+	    border:1px solid $gray;
+	    padding:10px 40px;
+	    border-radius:6px;
+	    color:$gray;
+	    font-size:14px;
+	    text-decoration:none;
+	    font-size:17px;
+	  }
+	}
+
+	.selected {
+	  color:white !important;
+	  background-color:$green !important;
+	}
+
+	.circle-selected {
+	  background-color:#524948;
+	}
+}
