@@ -1,8 +1,8 @@
 .hero {
 	background: url(bg.jpg) no-repeat center;
-	margin-top: -86px;
+	margin-top: -88px;
 	background-size: cover;
-	padding: 245px 0 160px;
+	padding: 195px 0 110px;
 	color: #FFF;
 
 	.content-wrap {
@@ -16,9 +16,11 @@
 		text-align: center;
 
 		h1 {
-			font-size: 42px;
+			font-size: 52px;
 			max-width: 800px;
 			margin: 0 auto;
+			@extend .headingFont;
+			line-height: 70px;
 		}
 
 		p {

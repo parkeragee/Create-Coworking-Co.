@@ -1,7 +1,54 @@
+* {
+	outline: none!important;
+}
+
+.bodyFont {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .025em;
+}
+
+.headingFont {
+	font-family: 'Merriweather', serif;
+	letter-spacing: .05em;
+}
+
+
 body, html {
 	height: 100%;
 }
+
+body, a, li {
+	@extend .bodyFont;
+	color: #333;
+}
+
+div > h2 {
+	text-align: center;
+	display: block;
+	margin: 0 auto 60px!important;
+	padding: 0;
+}
+
 @import 'stylesheets/colors.scss';
 @import 'stylesheets/header-section.scss';
 @import 'stylesheets/hero-section.scss';
+@import 'stylesheets/intro-section.scss';
 @import 'stylesheets/pricing-section.scss';
+@import 'stylesheets/events-section.scss';
+@import 'stylesheets/sponsor-section.scss';
+
+.newsletter {
+	background: lighten(#333, 10%);
+	padding: 40px 0;
+
+	h2 {
+		color: #FFF;
+	}
+}
+
+footer {
+	background: #333;
+	padding: 20px 0;
+	text-align: center;
+	color: lighten(#333, 30%);
+}
