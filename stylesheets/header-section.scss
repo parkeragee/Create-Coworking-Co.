@@ -29,4 +29,23 @@ header {
 			}
 		}
 	}
+
+	@media(max-width: 480px) {
+
+		.logo {
+			float: none!important;
+			text-align: center;
+			border: none;
+			padding: 20px 0 0 0;
+		}
+
+		.pull-right {
+			float: none!important;
+			text-align: center;
+
+			ul {
+				padding: 40px 0px 20px 26px;
+			}
+		}
+	}
 }
