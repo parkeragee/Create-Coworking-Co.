@@ -1,5 +1,5 @@
 .pricing {
-	padding: 80px 0;
+	padding: 80px 0 84px;
 
 	* {
 	  margin:0px;
@@ -22,6 +22,7 @@
 	  list-style: none;
 	  border-left:1px solid $border-color;
 	  text-align: center;
+	  transition: transform 0.3s ease;
 
 	  @media(max-width: 990px) {
 	  	flex: 0 0 100%;
@@ -31,6 +32,14 @@
 
 	  &.last {
 	  	border-right:1px solid $border-color;
+	  }
+
+	  &:hover {
+	  	transform: scale(1.0095);
+
+	  	.top {
+	  		background-color: darken(#EAE9E4, 5%);
+	  	}
 	  }
 	}
 
@@ -46,6 +55,7 @@
 	  background-color:#EAE9E4;
 	  height:86px;
 	  margin-bottom: 70px;
+	  transition: background 0.3s ease;
 
 	  h3 {
 	    padding-top:20px;

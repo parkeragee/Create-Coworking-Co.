@@ -36,6 +36,14 @@ div > h2 {
 @import 'stylesheets/pricing-section.scss';
 @import 'stylesheets/events-section.scss';
 @import 'stylesheets/sponsor-section.scss';
+@import 'stylesheets/map.scss';
+
+.fb-messengermessageus {
+	position: fixed!important;
+	bottom: 20px!important;
+	right: 20px!important;
+	z-index: 9999!important;
+}
 
 .newsletter {
 	background: lighten(#333, 10%);
@@ -43,6 +51,12 @@ div > h2 {
 
 	h2 {
 		color: #FFF;
+	}
+
+	p {
+		color: #FFF;
+		max-width: 580px;
+		margin: 0 auto;
 	}
 }
 
