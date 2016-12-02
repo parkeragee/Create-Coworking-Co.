@@ -1,111 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Create Coworking | Lebanon, TN | Mt. Juliet, TN | Wilson County, TN</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Create Coworking is a shared workspace and coworking community located in The Mill at Lebanon in Lebanon, TN">
-	<meta property="og:title" content="Create Coworking | Lebanon, TN | Mt. Juliet, TN | Wilson County, TN" />
-	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Create Coworking is a shared workspace and coworking community located in The Mill at Lebanon in Lebanon, TN" />
-	<meta property="og:url" content="http://createcoworking.com" />
-	<meta property="og:image" content="http://createcoworking.com/images/create-coworking.jpg" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.2.4/balloon.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-   <!--[if lt IE 9]>
-   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-   <![endif]-->
-   <script>
-		window.fbAsyncInit = function() {
-		FB.init({
-		appId      : '1221564004555386',
-		xfbml      : true,
-		version    : 'v2.7'
-		});
-		};
-
-		(function(d, s, id){
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-77525657-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<!-- Hotjar Tracking Code for http://createcoworking.com -->
-	<script>
-	    (function(h,o,t,j,a,r){
-	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-	        h._hjSettings={hjid:262153,hjsv:5};
-	        a=o.getElementsByTagName('head')[0];
-	        r=o.createElement('script');r.async=1;
-	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-	        a.appendChild(r);
-	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-
-</head>
+<?php
+	$title = 'Create Coworking';
+	include 'includes/meta.php';
+?>
 <body>
-	<script>
-
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId: "1221564004555386",
-        xfbml: true,
-        version: "v2.6"
-      });
-
-    };
-
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) { return; }
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-  </script>
-	<script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiI1YWJjNjkiLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZW4iLCJpbnRyb1RleHQiOiJDcmVhdGUgQ293b3JraW5nIGlzIGEgc2hhcmVkIHdvcmtzcGFjZSBhbmQgY28td29ya2luZyBjb21tdW5pdHkgbG9jYXRlZCBpbiBUaGUgTWlsbCBhdCBMZWJhbm9uLiIsImNoYW5uZWxzIjpbWyJtZXNzZW5nZXIiLCJjcmVhdGVjb3dvcmtpbmciLCJzb2NpYWwiXSxbImZhY2Vib29rIiwiY3JlYXRlY293b3JraW5nIiwic29jaWFsIl0sWyJpbnN0YWdyYW0iLCJjcmVhdGVjb3dvcmtpbmciLCJzb2NpYWwiXSxbIm1lZGl1bSIsImNyZWF0ZWNvd29ya2luZyIsInNvY2lhbCJdLFsidHdpdHRlciIsImNyZWF0ZWNvd29ya2luZyIsInNvY2lhbCJdLFsicGhvbmUiLCIxLTYxNS03ODQtMzI4NyIsImNsYXNzaWMiXSxbImVtYWlsIiwicGFya2VyQGNyZWF0ZWNvd29ya2luZy5jb20iLCJjbGFzc2ljIl1dfQ=='></script>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=652368364894154";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	<header>
-		<div class="container">
-			<div class="logo pull-left">
-				<img src="create-coworking.svg" alt="">
-			</div>
-			<div class="pull-right">
-				<ul>
-					<li><a onClick="ga('send', 'navigation', 'About');" href="#about">About</a></li>
-					<li><a onClick="ga('send', 'navigation', 'Pricing');" href="#pricing">Pricing</a></li>
-					<li><a onClick="ga('send', 'navigation', 'Members');" href="./members">Our Members</a></li>
-					<li><a onClick="ga('send', 'navigation', 'Blog');" target="_blank" href="https://medium.com/@createcoworking">Blog</a></li>
-					<li><a class="button" onClick="ga('send', 'navigation', 'Join');" href="/join">Join</a></li>
-					<!-- <li><a href="#events">Events</a></li>
-					<li><a href="#sponsors">Sponsors</a></li> -->
-				</ul>
-			</div>
-		</div>
-	</header>
+	<?php include 'includes/meta-scripts.php'; ?>
+	<?php include 'includes/header.php'; ?>
 	<div class="hero">
 		<div class="content-wrap">
 			<div class="content">
@@ -154,7 +55,7 @@
 						<li>
 							<div class="top">
 								<h3>Day Pass</h3>
-								<div class="circle">$20</div>
+								<div class="circle">$12</div>
 								<span>per pass</span>
 							</div>
 							<div class="bottom">
@@ -175,7 +76,7 @@
 						<li>
 							<div class="top">
 								<h3>Student</h3>
-								<div class="circle">$99</div>
+								<div class="circle">$69</div>
 								<span>per month</span>
 							</div>
 							<div class="bottom">
@@ -195,7 +96,7 @@
 						<li>
 							<div class="top">
 								<h3>Part-Time</h3>
-								<div class="circle">$149</div>
+								<div class="circle">$99</div>
 								<span>per month</span>
 							</div>
 							<div class="bottom">
@@ -216,7 +117,7 @@
 						<li>
 							<div class="top selected">
 								<h3>Full-Time</h3>
-								<div class="circle circle-selected">$249</div>
+								<div class="circle circle-selected">$199</div>
 								<span>per month</span>
 							</div>
 							<div class="bottom">
@@ -237,7 +138,7 @@
 						<li class="last">
 							<div class="top">
 								<h3>Dedicated</h3>
-								<div class="circle">$349</div>
+								<div class="circle">$249</div>
 								<span>per month</span>
 							</div>
 							<div class="bottom">
