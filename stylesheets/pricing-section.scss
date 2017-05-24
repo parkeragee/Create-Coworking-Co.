@@ -120,4 +120,28 @@
 	.circle-selected {
 	  background-color:#524948;
 	}
+
+	.company-discount {
+		text-align: center;
+		margin-top: 60px;
+
+		h4 {
+			margin-bottom: 30px;
+		}
+
+		p {
+			max-width: 660px;
+			margin: 0 auto 30px;
+		}
+
+		.btn {
+			display: inline-block;
+			background: $green;
+			padding: 6px 42px;
+			color: #FFF;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
 }

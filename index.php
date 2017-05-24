@@ -17,7 +17,7 @@
 	</div>
 	<div class="intro" id="about">
 		<div class="container">
-			<p>Create Coworking is a shared workspace and coworking community located in The Mill at Lebanon in Wilson County, TN. Our mission is to provide our members with an environment that inspires them to create their best work. We are a community of Entrepreneurs, Small Business Owners, Artists, Freelancers and more!</p>
+			<p>Create Coworking is a shared workspace and coworking community located in Wilson County, TN. Our mission is to provide our members with an environment that inspires them to create their best work. We are a community of Entrepreneurs, Small Business Owners, Artists, Freelancers and more!</p>
 			<div class="features">
 				<div class="col-sm-3">
 					<div class="image">
@@ -46,6 +46,58 @@
 			</div>
 		</div>
 	</div>
+	<div class="design" id="design">
+		<div class="container">
+			<h2>On-Demand Design</h2>
+			<p>On-demand design services are included in our Part-time, Full-time and Dedicated Desk memberships. Our on-demand design services allow you to focus on running your business and not juggle with the task of designing marketing materials.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/design.jpg" alt="">
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-6">
+							<ul>
+								<li>Display advertising banner</li>
+								<li>Social media banner</li>
+								<li>Memes</li>
+								<li>Flyers</li>
+								<li>Posters</li>
+								<li>Product background removal</li>
+								<li>Facebook page images</li>
+								<li>Logos</li>
+								<li>One page websites</li>
+								<li>Mobile phone UI</li>
+								<li>Business cards</li>
+								<li>Print advertising</li>
+								<li>Power point templates</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul>
+								<li>Brochures</li>
+								<li>Infographics</li>
+								<li>Restaurant menus</li>
+								<li>Email signatures</li>
+								<li>Blog post image</li>
+								<li>Product covers</li>
+								<li>Email Templates</li>
+								<li>Website buttons</li>
+								<li>Letterheads</li>
+								<li>Invitations</li>
+								<li>Gift certificates</li>
+								<li>Etsy banners</li>
+								<li>List goes on...</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="disclaimer">
+				<p>A design task is a graphic request that takes a member of our team 1 hour or less. Our designers work via a queue system. All member's design requests are entered into the queue on a first come, first serve basis. Please keep this in mind when planning your design requests.</p>
+			</div>
+		</div>
+	</div>
 	<div class="pricing" id="pricing">
 		<div class="container">
 			<h2>Pricing</h2>
@@ -64,13 +116,13 @@
 								<p>Free coffee</p>
 								<p>&mdash;</p>
 								<p>&mdash;</p>
-								<!-- <p>&mdash;</p> -->
 								<p>&mdash;</p>
 								<p>&mdash;</p>
 								<p>&mdash;</p>
-								<div class="sign">
-									<a onClick="ga('send', 'pricing', 'Day Pass');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e70f4' class='button'>SIGN UP</a>
-								</div>
+								<p>&mdash;</p>
+								<!-- <div class="sign">
+									<a disabled="disabled" onClick="ga('send', 'pricing', 'Day Pass');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e70f4' class='button'>SIGN UP</a>
+								</div> -->
 							</div>
 						</li>
 						<li>
@@ -88,9 +140,10 @@
 								<p>&mdash;</p>
 								<p>&mdash;</p>
 								<p>&mdash;</p>
-								<div class="sign">
-									<a target="_blank" onClick="ga('send', 'pricing', 'Student');" href='https://create.cobot.me/membership_signup/new?plan_id=18898de7335e6da49d4bbbbbfcfa92a6' class='button'>SIGN UP</a>
-								</div>
+								<p>&mdash;</p>
+								<!-- <div class="sign">
+									<a disabled="disabled" target="_blank" onClick="ga('send', 'pricing', 'Student');" href='https://create.cobot.me/membership_signup/new?plan_id=18898de7335e6da49d4bbbbbfcfa92a6' class='button'>SIGN UP</a>
+								</div> -->
 							</div>
 						</li>
 						<li>
@@ -105,13 +158,13 @@
 								<p>Free coffee</p>
 								<p>Access to community chat <span class="help" data-balloon-length="large" data-balloon="We offer a private chat room for our members for networking purposes." data-balloon-pos="up">?</span></p>
 								<p>Free tickets to events</p>
-								<!-- <p>&mdash;</p> -->
+								<p>5 design tasks per month</p>
 								<p>&mdash;</p>
 								<p>&mdash;</p>
 								<p>&mdash;</p>
-								<div class="sign">
-									<a onClick="ga('send', 'pricing', 'Part-Time');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e7ba0' class='button'>SIGN UP</a>
-								</div>
+								<!-- <div class="sign">
+									<a disabled="disabled" onClick="ga('send', 'pricing', 'Part-Time');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e7ba0' class='button'>SIGN UP</a>
+								</div> -->
 							</div>
 						</li>
 						<li>
@@ -129,10 +182,11 @@
 								<!-- <p>Free locker</p> -->
 								<p>Professional address service <span class="help" data-balloon-length="large" data-balloon="Use our mailing address and have your mailing/shipments sent to your workspace." data-balloon-pos="up">?</span></p>
 								<p>Dedicated web page <span class="help" data-balloon-length="large" data-balloon="You'll get a dedicated, public web page for your business on our website." data-balloon-pos="up">?</span></p>
+								<p>10 design tasks per month</p>
 								<p>&mdash;</p>
-								<div class="sign">
-									<a onClick="ga('send', 'pricing', 'Full-Time');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e7fe8' class="button selected" >SIGN UP</a>
-								</div>
+								<!-- <div class="sign">
+									<a disabled="disabled" onClick="ga('send', 'pricing', 'Full-Time');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d767e7fe8' class="button selected" >SIGN UP</a>
+								</div> -->
 							</div>
 						</li>
 						<li class="last">
@@ -151,13 +205,19 @@
 								<p>Professional address service</p>
 								<p>Dedicated web page</p>
 								<p>Dedicated desk <span class="help" data-balloon-length="large" data-balloon="Get your very own desk that will be available whenever you arrive." data-balloon-pos="up">?</span></p>
-								<div class="sign">
-									<a onClick="ga('send', 'pricing', 'Dedicated');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d76a07530' class='button'>SIGN UP</a>
-								</div>
+								<p>15 design tasks per month</p>
+								<!-- <div class="sign">
+									<a disabled="disabled" onClick="ga('send', 'pricing', 'Dedicated');" target="_blank" href='https://create.cobot.me/membership_signup/new?plan_id=7f12386fe2e8b1121bfa604d76a07530' class='button'>SIGN UP</a>
+								</div> -->
 							</div>
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="company-discount">
+				<h4>Need some space for your employees?</h4>
+				<p>We have company discounts available for those companies that need space in Wilson County, TN for some of their employees. Contact us and we will get you set up with a special rate!</p>
+				<a onClick="ga('send', 'pricing', 'Company Discount');" href="mailto:parker@createcoworking.com" class="btn">Contact us</a>
 			</div>
 		</div>
 	</div>
@@ -200,9 +260,9 @@
 			</div>
 		</div>
 	</div> -->
-	<div id="map">
+	<!-- <div id="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3219.1787512289334!2d-86.29516068469137!3d36.210849980074244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864202bf161bf63%3A0xecd9423d560dfc66!2sCreate+Coworking!5e0!3m2!1sen!2sus!4v1473347206607" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
+	</div> -->
 	<div class="newsletter">
 		<div class="container">
 			<h2>Let&rsquo;s Connect</h2>
